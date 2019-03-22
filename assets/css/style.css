@@ -1,0 +1,253 @@
+* {
+	box-sizing: border-box;
+	margin: 0 auto 0 auto;
+}
+
+.navbar {
+	background-color: #ffffff;
+	height: 80px;
+	width: 100%;
+	margin-right: 150px;
+}
+
+ol li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: right;
+	position: relative;
+	left: -125px;
+	margin-top: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+	text-align: center;
+}
+
+.portfolio {
+	border-right: solid 0.5px #cccccc;
+	border-left: solid 0.5px #cccccc;
+}
+
+.first {
+	color: #fff;
+	background-color: #4aaaa5;
+	text-align: center;
+	height: 80px;
+	width: 150px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+	margin-left: 140px;
+}
+
+
+h1 {
+	font-family: Georgia, Times, Times New Roman, serif;
+}
+
+body {
+	background-color: #eee;
+	font-family: Arial, Helvetia Neue, Helvetica, sans-serif;
+	width: 100%;
+}
+
+img {
+	float: left;
+	padding-right: 10px;
+	padding-left: 20px;
+}
+
+.me , .contactbox{
+	clear: both;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	color: #777777;
+	width: 960px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: auto;
+	line-height: 2;
+}
+
+form{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.second , .contact {
+	color: #4aaaa5;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+}
+
+.text, textarea {
+	
+	padding: 5px;
+	width: 100%;
+	border: 1px solid #cccccc;
+	
+}
+
+textarea {
+	height: 300px;
+}
+.button {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 12px;
+	font-family: Arial, Helvetia Neue, Helvetica, sans-serif;
+	width: 10%;
+	height: 30px;
+	margin-bottom: 25px;
+}
+
+.pusheen, .surf, .minion, .sunset{
+	margin-bottom: 40px;
+}
+
+.img1 {
+	position: absolute;
+	top: 450px;
+	left: 280px;
+	padding-left: 135px;
+	padding-right: 135px;
+	background-color: #4aaaa5;
+	color: white;
+
+}
+.img2 {
+	position: absolute;
+	top: 450px;
+	right: 390px;
+	padding-left: 160px;
+	padding-right: 160px;
+	background-color: #4aaaa5;
+	color: white;
+}
+
+
+.img3 {
+
+
+}
+
+.img4 {
+	position: absolute;
+}
+
+p {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+
+footer {
+	padding-top: 30px;
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+	text-align: center;
+	color: #cccccc;
+	width: 100vw;
+}
+
+
+hr {
+	width: 97%;
+}
+
+input {
+	width: 100%;
+}
+
+/*980px as max width*/
+
+@media screen and (max-width: 980px) {
+  .me, .contactbox {
+    width: 600px;
+    height: 800px;
+    margin-left: 50px;
+
+   }
+   .first {
+   	margin-left: 50px;
+   }
+  }
+
+/*768px as max width*/
+@media screen and (max-width: 768px) {
+  .me, .contactbox {
+    width: 600px;
+    height: 800px;
+
+   }
+   img {
+   	width: 200px;
+   	height: 130px;
+   }
+   body {
+   	background-color: black;
+   }
+   .first {
+   	margin-left: 50px;
+   }
+  }
+
+/* 640 as max width*/
+@media screen and (max-width: 640px) {
+
+  .me, .contactbox {
+    width: 400px;
+    height: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 0px;
+    margin-bottom: 0px;
+
+   }
+   img {
+   	width: 250px;
+   	height: 130px;
+   	margin-left: 50px;
+   	margin-right: 50px;
+
+   }
+
+   body {
+   	background-color: black  
+   }
+
+   .navbar, .first {
+   	float: left;
+   	margin-left: 150px;
+   	margin-right: 150px;
+   	width: 400px;
+   }
+   ol li {
+   	clear: both;
+   	width: 100px;
+   	position: relative;
+   	top: 0px;
+   	left: 10px;
+   	float: none;
+   }
+ 
+footer {
+   	float: left;
+   	margin-left: 150px;
+   	margin-right: 150px;
+   	width: 400px;
+   }
+ }  
+   
+  }
